@@ -1,0 +1,84 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Workspaces",
+      "complete": false,
+      "items": []
+    },
+    {
+      "title": "Debugging",
+      "complete": false,
+      "id": 2,
+      "items": [
+        "Watch",
+        "Callstack",
+        "Blackboxing",
+        "Breakpoints - Conditional/HTML/XHR"
+      ]
+    },
+    {
+      "title": "Audits",
+      "complete": false,
+      "id": 3,
+      "items": []
+    },
+    {
+      "title": "Overrides",
+      "complete": false,
+      "id": 4,
+      "items": []
+    },
+    {
+      "title": "Network",
+      "complete": false,
+      "id": 5,
+      "items": [
+        "Shift key",
+        "Copy",
+        "Throttling",
+        "Screenshots"
+      ]
+    },
+    {
+      "title": "Command Line API",
+      "complete": false,
+      "id": 6,
+      "items": [
+        "Eager evaluation",
+        "console.table / console.group",
+        "copy",
+        "$0 - $4",
+        "$ like",
+        "$_",
+        "temp"
+      ]
+    },
+    {
+      "title": "Other tools",
+      "complete": false,
+      "id": 7,
+      "items": [
+        "Changes",
+        "Search all files",
+        "Animations"
+      ]
+    },
+    {
+      "title": "Tricks",
+      "complete": false,
+      "id": 8,
+      "items": [
+        "Color shades",
+        "CSS Variables / Page colors",
+        "Node screenshots / mobile screenshots",
+        "Task manager",
+        "Live expressions",
+        "Coverage",
+        "Access by ID",
+        "Scroll into view",
+        "Debugger inception"
+      ]
+    }
+  ]
+}

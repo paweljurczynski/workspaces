@@ -1,0 +1,12 @@
+.item-list {
+  padding-left: 80px;
+  list-style-type: decimal;
+  background-color: #EF9A9A;
+  font-weight: normal;
+}
+
+.item-list li {
+  padding: 12px 0;
+  font-size: 0.8em;
+  color: white;;
+}

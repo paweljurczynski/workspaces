@@ -1,0 +1,12 @@
+li {
+    max-height: 500px;
+    overflow: hidden;
+}
+
+li.completed {
+    transition: opacity 0.4s, max-height 0.3s 0.3s;
+    max-height: 0; 
+    opacity: 0;
+    border: 0;
+}
+

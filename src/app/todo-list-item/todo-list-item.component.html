@@ -1,0 +1,8 @@
+<div class="view" (click)="toggleTodoComplete(todo)">
+  <input class="toggle" type="checkbox" [checked]="todo.complete">
+  <label>{{todo.title}}</label>
+  <button class="destroy" (click)="removeTodo(todo)"></button>
+  <ul class="item-list" *ngIf="todo.items?.length">
+    <li class="item-text" *ngFor="let item of todo.items">{{item}}</li>
+  </ul>
+</div>
