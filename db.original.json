@@ -7,23 +7,6 @@
       "items": []
     },
     {
-      "title": "Debugging",
-      "complete": false,
-      "id": 2,
-      "items": [
-        "Watch",
-        "Callstack",
-        "Blackboxing",
-        "Breakpoints - Conditional/HTML/XHR"
-      ]
-    },
-    {
-      "title": "Audits",
-      "complete": false,
-      "id": 3,
-      "items": []
-    },
-    {
       "title": "Overrides",
       "complete": false,
       "id": 4,
@@ -36,9 +19,26 @@
       "items": [
         "Shift key",
         "Copy",
-        "Throttling",
-        "Screenshots"
+        "Throttling"
       ]
+    },
+    {
+      "title": "Debugging",
+      "complete": false,
+      "id": 2,
+      "items": [
+        "Watch",
+        "Callstack",
+        "Blackboxing",
+        "Breakpoints - Conditional/HTML/XHR",
+        "Scroll into view"
+      ]
+    },
+    {
+      "title": "Audits",
+      "complete": false,
+      "id": 3,
+      "items": []
     },
     {
       "title": "Command Line API",
@@ -46,38 +46,24 @@
       "id": 6,
       "items": [
         "Eager evaluation",
-        "console.table / console.group",
-        "copy",
-        "$0 - $4",
-        "$ like",
-        "$_",
-        "temp"
+        "console.group / console.table",
+        "Selecting an element",
+        "Last expression",
+        "Temporary variables",
+        "Live expressions"
       ]
     },
     {
-      "title": "Other tools",
+      "title": "Other",
       "complete": false,
       "id": 7,
       "items": [
-        "Changes",
-        "Search all files",
-        "Animations"
-      ]
-    },
-    {
-      "title": "Tricks",
-      "complete": false,
-      "id": 8,
-      "items": [
-        "Color shades",
-        "CSS Variables / Page colors",
-        "Node screenshots / mobile screenshots",
+        "Search",
+        "Animations",
+        "Colors: Picker/Page colors/Shades",
+        "Making Screenshots",
         "Task manager",
-        "Live expressions",
-        "Coverage",
-        "Access by ID",
-        "Scroll into view",
-        "Debugger inception"
+        "Debugger debugging"
       ]
     }
   ]

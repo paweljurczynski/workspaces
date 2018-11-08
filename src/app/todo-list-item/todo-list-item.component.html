@@ -2,7 +2,7 @@
   <input class="toggle" type="checkbox" [checked]="todo.complete">
   <label>{{todo.title}}</label>
   <button class="destroy" (click)="removeTodo(todo)"></button>
-  <ul class="item-list" *ngIf="todo.items?.length">
+  <ul class="item-list" *ngIf="todo.items?.length" [class.toggled]="toggler">
     <li class="item-text" *ngFor="let item of todo.items">{{item}}</li>
   </ul>
 </div>

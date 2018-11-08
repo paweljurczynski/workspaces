@@ -1,5 +1,5 @@
-import { Component, Input, Output, EventEmitter } from '@angular/core';
-import { Todo } from '../todo';
+import {Component, Input, Output, EventEmitter} from '@angular/core';
+import {Todo} from '../todo';
 
 @Component({
   selector: 'app-todo-list-item',
@@ -9,6 +9,7 @@ import { Todo } from '../todo';
 export class TodoListItemComponent {
 
   @Input() todo: Todo;
+  toggler: boolean;
 
   @Output()
   remove: EventEmitter<Todo> = new EventEmitter();
@@ -17,10 +18,17 @@ export class TodoListItemComponent {
   toggleComplete: EventEmitter<Todo> = new EventEmitter();
 
   constructor() {
+    this.initInterval();
   }
 
   toggleTodoComplete(todo: Todo) {
     this.toggleComplete.emit(todo);
+  }
+
+  initInterval() {
+    setInterval(() => {
+      this.toggler = !this.toggler;
+    }, 1000);
   }
 
   removeTodo(todo: Todo) {
